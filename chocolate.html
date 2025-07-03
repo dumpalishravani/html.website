@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chocolate Factory</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #fff3e0;
+    }
+
+    header {
+      background-color:brown;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #a1887f;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .product {
+      background-color: white;
+      width: 250px;
+      margin: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+    }
+
+    .product img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #6d4c41;
+      text-align: center;
+      padding: 15px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Delight Chocolate Factory</h1>
+    <p>Premium Handmade Chocolates Since 1990</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Our Chocolates</a>
+    <a href="#">Factory Tour</a>
+    <a href="#">Contact Us</a>
+  </nav>
+
+  <div class="container">
+    <h2 style="text-align:center;">Our Best Chocolates</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1606312619349-2e615d3d7b35" alt="Dark Chocolate">
+        <h3>Dark Chocolate</h3>
+        <p>₹299 per box</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1623441814103-bd8be46b17be" alt="Milk Chocolate">
+        <h3>Milk Chocolate</h3>
+        <p>₹249 per box</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1606312531458-837eb1f3fcf2" alt="White Chocolate">
+        <h3>White Chocolate</h3>
+        <p>₹269 per box</p>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1612817159207-84c3d0096d5e" alt="Chocolate Truffles">
+        <h3>Chocolate Truffles</h3>
+        <p>₹399 per box</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Delight Chocolate Factory. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
